@@ -1,0 +1,31 @@
+# Debris
+.DS_Store
+.sass-cache
+
+# Ignore building resources
+/resources
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/app/assets/builders
+
+/node_modules
+/yarn-error.log
+
+/public/uploads
+.byebug_history
+NOTES.md
+pkg/
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key

@@ -1,0 +1,111 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Misc
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+// Remove Tap Highlight
+// -------------------------------------------------------------
+a,
+button,
+input,
+textarea,
+button,
+select,
+[type=button],
+[type=submit],
+.button,
+.link {
+  -webkit-tap-highlight-color: $tap !important;
+}
+
+// Labels
+// -------------------------------------------------------------
+.label {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+
+// Floats
+// -------------------------------------------------------------
+.left  { float: left !important; }
+.right { float: right !important; }
+
+// Displays
+// -------------------------------------------------------------
+.inline {
+  display: inline !important;
+  float: none !important;
+}
+.inline-block {
+  display: inline-block !important;
+  float: none !important;
+}
+
+// Wrappers
+// -------------------------------------------------------------
+.wrap-left,
+.wrap-right {
+  vertical-align: baseline !important;
+  width: auto !important;
+}
+.wrap-left { float: left !important; }
+.wrap-right { float: right !important; }
+.wide { width: 100% !important; }
+.auto { width: auto !important; }
+
+// Divider
+// -------------------------------------------------------------
+.divider {
+  appearance: none !important;
+  border: 0 !important;
+  display: block !important;
+  float: left !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  &.double-extra-small { margin: 0 4px !important; }
+  &.extra-small { margin: 0 8px !important; }
+  &.small { margin: 0 16px !important; }
+  &.medium { margin: 0 32px !important; }
+  &.large { margin: 0 48px !important; }
+  &.extra-large { margin: 0 64px !important; }
+  &.double-extra-large { margin: 0 80px !important; }
+}
+
+// Separator
+// -------------------------------------------------------------
+.separator {
+  appearance: none !important;
+  border: 0 !important;
+  display: block !important;
+  float: left !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  &.double-extra-small { margin: 4px 0 !important; }
+  &.extra-small { margin: 8px 0 !important; }
+  &.small { margin: 16px 0 !important; }
+  &.medium { margin: 32px 0 !important; }
+  &.large { margin: 48px 0 !important; }
+  &.extra-large { margin: 64px 0 !important; }
+  &.double-extra-large { margin: 64px 0 !important; }
+}
+
+// Cursor
+// -------------------------------------------------------------
+.crosshair { cursor: crosshair; }
+.move { cursor: move; }
+.handle { cursor: move; }
+
+// Underline
+// -------------------------------------------------------------
+.underline { text-decoration: underline !important; }
+.no-underline { text-decoration: none !important; }
+
+// Positions
+// -------------------------------------------------------------
+.absolute { position: absolute; }
+.relative { position: relative; }

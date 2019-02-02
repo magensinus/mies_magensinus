@@ -1,0 +1,159 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Button Themes
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+@mixin button-default-theme {
+  background-color: $gray-500 !important;
+  border: 1px solid $gray-600 !important;
+  color: $gray-000 !important;
+  &:link,
+  &:visited {
+    background-color: $gray-500 !important;
+    border: 1px solid $gray-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $gray-600 !important;
+    border: 1px solid $gray-700 !important;
+  }
+}
+
+@mixin button-white-theme {
+  background-color: $white-085 !important;
+  border: 1px solid $white-085 !important;
+  color: $black-100 !important;
+  &:link,
+  &:visited {
+    background-color: $white-085 !important;
+    border: 1px solid $white-085 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $white-100 !important;
+    border: 1px solid $white-100 !important;
+  }
+}
+
+@mixin button-gray-theme {
+  background-color: $gray-500 !important;
+  border: 1px solid $gray-600 !important;
+  color: $gray-000 !important;
+  &:link,
+  &:visited {
+    background-color: $gray-500 !important;
+    border: 1px solid $gray-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $gray-600 !important;
+    border: 1px solid $gray-700 !important;
+  }
+}
+
+@mixin button-purple-theme {
+  background-color: $purple-500 !important;
+  border: 1px solid $purple-600 !important;
+  color: $purple-000 !important;
+  &:link,
+  &:visited {
+    background-color: $purple-500 !important;
+    border: 1px solid $purple-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $purple-600 !important;
+    border: 1px solid $purple-700 !important;
+  }
+}
+
+@mixin button-blue-theme {
+  background-color: $blue-500 !important;
+  border: 1px solid $blue-600 !important;
+  color: $blue-000 !important;
+  &:link,
+  &:visited {
+    background-color: $blue-500 !important;
+    border: 1px solid $blue-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $blue-600 !important;
+    border: 1px solid $blue-700 !important;
+  }
+}
+
+@mixin button-green-theme {
+  background-color: $green-500 !important;
+  border: 1px solid $green-600 !important;
+  color: $green-000 !important;
+  &:link,
+  &:visited {
+    background-color: $green-500 !important;
+    border: 1px solid $green-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $green-600 !important;
+    border: 1px solid $green-700 !important;
+  }
+}
+
+@mixin button-yellow-theme {
+  background-color: $yellow-500 !important;
+  border: 1px solid $yellow-600 !important;
+  color: $yellow-000 !important;
+  &:link,
+  &:visited {
+    background-color: $yellow-500 !important;
+    border: 1px solid $yellow-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $yellow-600 !important;
+    border: 1px solid $yellow-700 !important;
+  }
+}
+
+@mixin button-orange-theme {
+  background-color: $orange-500 !important;
+  border: 1px solid $orange-600 !important;
+  color: $orange-000 !important;
+  &:link,
+  &:visited {
+    background-color: $orange-500 !important;
+    border: 1px solid $orange-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $orange-600 !important;
+    border: 1px solid $orange-700 !important;
+  }
+}
+
+@mixin button-red-theme {
+  background-color: $red-500 !important;
+  border: 1px solid $red-600 !important;
+  color: $red-000 !important;
+  &:link,
+  &:visited {
+    background-color: $red-500 !important;
+    border: 1px solid $red-600 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $red-600 !important;
+    border: 1px solid $red-700 !important;
+  }
+}
+
+// Classes
+// -------------------------------------------------------------
+.button-default-theme { @include button-default-theme; }
+.button-gray-theme { @include button-gray-theme; }
+.button-purple-theme { @include button-purple-theme; }
+.button-blue-theme { @include button-blue-theme; }
+.button-green-theme { @include button-green-theme; }
+.button-yellow-theme { @include button-yellow-theme; }
+.button-orange-theme { @include button-orange-theme; }
+.button-red-theme { @include button-red-theme; }

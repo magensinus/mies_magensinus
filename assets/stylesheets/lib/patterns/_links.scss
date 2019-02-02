@@ -1,0 +1,54 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Links
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+.link {
+  @include link-default-theme;
+  @include link-medium-size;
+  display: block;
+  float: left;
+  // Sizes
+  &.double-extra-small { @include link-double-extra-small-size; }
+  &.extra-small { @include link-extra-small-size; }
+  &.small { @include link-small-size; }
+  &.medium { @include link-medium-size; }
+  &.large { @include link-large-size; }
+  &.extra-large { @include link-extra-large-size; }
+  &.double-extra-large { @include link-double-extra-large-size; }
+  // Themes
+  &.white { @include link-white-theme; }
+  &.gray { @include link-gray-theme; }
+  &.purple { @include link-purple-theme; }
+  &.blue { @include link-blue-theme; }
+  &.green { @include link-green-theme; }
+  &.yellow { @include link-yellow-theme; }
+  &.orange { @include link-orange-theme; }
+  &.red { @include link-red-theme; }
+  // Icon
+  .icon {
+    background-color: transparent;
+    position: relative;
+    &.left {
+      margin-right: .250em;
+    }
+    &.right {
+      margin-left: .250em;
+    }
+  }
+  &.left,
+  &.right {
+    display: block;
+  }
+  // Misc
+  &.underline {
+    text-decoration: underline;
+  }
+  &.hover-underline {
+    text-decoration: none;
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}

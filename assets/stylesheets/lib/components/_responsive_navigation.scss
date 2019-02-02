@@ -1,0 +1,155 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Responsive navigation
+// Project: Magensinus Education
+// -------------------------------------------------------------
+
+$class: "responsive-navigation";
+
+.#{$class} {
+  @include border-box;
+  background-color: $gray-000;
+  display: none;
+  float: left;
+  position: absolute;
+  width: 960px;
+  z-index: 99999;
+  .#{$class}-column {
+    @include border-box;
+    float: left;
+    width: 320px;
+  }
+  .#{$class}-box {
+    @include border-box;
+    float: left;
+    padding: 64px 8px;
+    width: 100%;
+    .#{$class}-item {
+      @include border-box;
+      float: left;
+      padding: 8px;
+      width: 100%;
+      a {
+        float: left;
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        // Themes
+        &.blue { @include link-blue-theme; }
+      }
+    }
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$double-extra-small} {
+  .#{$class} {
+    width: 240px;
+    .#{$class}-column {
+      width: 240px;
+    }
+    .#{$class}-box {
+      padding: 8px;
+      .#{$class}-item {
+        padding: 8px 0;
+        a {
+          float: left;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$extra-small} {
+  .#{$class} {
+    width: 360px;
+    .#{$class}-column {
+      width: 360px;
+    }
+    .#{$class}-box {
+      padding: 16px 8px;
+      .#{$class}-item {
+        padding: 8px 0;
+        a {
+          float: left;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$small} {
+  .#{$class} {
+    width: 480px;
+    .#{$class}-column {
+      width: 480px;
+    }
+    .#{$class}-box {
+      padding: 16px 8px;
+      .#{$class}-item {
+        padding: 8px 0;
+        a {
+          float: left;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$medium} {
+  .#{$class} {
+    width: 720px;
+    .#{$class}-column {
+      width: 240px;
+    }
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$large} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$extra-large} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$double-extra-large} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}

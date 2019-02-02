@@ -1,0 +1,84 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Button Sizes
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+@mixin button-double-extra-small-size {
+  font-size: 8px;
+  line-height: 8px;
+  padding: 3px;
+  .icon {
+    height: 8px;
+    top: 0;
+  }
+}
+
+@mixin button-extra-small-size {
+  font-size: 8px;
+  line-height: 10px;
+  padding: 3px;
+  .icon {
+    height: 10px;
+    top: 0;
+  }
+}
+
+@mixin button-small-size {
+  font-size: 8px;
+  line-height: 12px;
+  padding: 4px 3px 2px;
+  .icon {
+    height: 12px;
+    top: -1px;
+  }
+}
+
+@mixin button-medium-size {
+  font-size: 8px;
+  line-height: 14px;
+  padding: 5px 4px 3px;
+  .icon {
+    height: 14px;
+    top: -1px;
+  }
+}
+
+@mixin button-large-size {
+  font-size: 10px;
+  line-height: 18px;
+  padding: 6px;
+  .icon {
+    height: 18px;
+    top: 0;
+  }
+}
+
+@mixin button-extra-large-size {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 9px 8px;
+  .icon {
+    height: 20px;
+    top: -1px;
+  }
+}
+
+@mixin button-double-extra-large-size {
+  font-size: 12px;
+  line-height: 24px;
+  padding: 12px 11px 10px;
+  .icon {
+    height: 24px;
+    top: -1px;
+  }
+}
+
+// Classes
+// -------------------------------------------------------------
+.button-double-extra-small-size { @include button-double-extra-small-size; }
+.button-extra-small-size { @include button-extra-small-size; }
+.button-small-size { @include button-small-size; }
+.button-medium-size { @include button-medium-size; }
+.button-large-size { @include button-large-size; }
+.button-extra-large-size { @include button-extra-large-size; }
+.button-double-extra-large-size { @include button-double-extra-large-size; }

@@ -1,0 +1,171 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Link Themes
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+@mixin link-white-theme {
+  color: $white-085 !important;
+  &:link,
+  &:visited {
+    color: $white-085 !important;
+  }
+  &:hover,
+  &:active {
+    color: $white-100 !important;
+  }
+}
+
+@mixin link-default-theme {
+  color: $gray-500 !important;
+  &:link,
+  &:visited {
+    color: $gray-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $gray-600 !important;
+  }
+}
+
+@mixin link-gray-theme {
+  color: $gray-500 !important;
+  &:link,
+  &:visited {
+    color: $gray-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $gray-600 !important;
+  }
+}
+
+@mixin link-blue-theme {
+  color: $blue-500 !important;
+  &:link,
+  &:visited {
+    color: $blue-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $blue-600 !important;
+  }
+}
+
+@mixin link-blue-dark-theme {
+  color: $blue-700 !important;
+  &:link,
+  &:visited {
+    color: $gray-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $blue-900 !important;
+  }
+}
+
+@mixin link-green-theme {
+  color: $green-500 !important;
+  &:link,
+  &:visited {
+    color: $green-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $green-600 !important;
+  }
+}
+
+@mixin link-green-dark-theme {
+  color: $green-700 !important;
+  &:link,
+  &:visited {
+    color: $green-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $green-900 !important;
+  }
+}
+
+@mixin link-yellow-theme {
+  color: $yellow-500 !important;
+  &:link,
+  &:visited {
+    color: $yellow-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $yellow-600 !important;
+  }
+}
+
+@mixin link-yellow-dark-theme {
+  color: $yellow-700 !important;
+  &:link,
+  &:visited {
+    color: $yellow-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $yellow-900 !important;
+  }
+}
+
+@mixin link-orange-theme {
+  color: $orange-500 !important;
+  &:link,
+  &:visited {
+    color: $orange-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $orange-600 !important;
+  }
+}
+
+@mixin link-red-theme {
+  color: $red-500 !important;
+  &:link,
+  &:visited {
+    color: $red-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $red-600 !important;
+  }
+}
+
+@mixin link-purple-light-theme {
+  color: $purple-100 !important;
+  &:link,
+  &:visited {
+    color: $purple-100 !important;
+  }
+  &:hover,
+  &:active {
+    color: $purple-000 !important;
+  }
+}
+
+@mixin link-purple-theme {
+  color: $purple-500 !important;
+  &:link,
+  &:visited {
+    color: $purple-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $purple-600 !important;
+  }
+}
+
+.link-default-theme { @include link-default-theme; }
+.link-gray-theme { @include link-gray-theme; }
+.link-purple-light-theme { @include link-purple-light-theme; }
+.link-purple-theme { @include link-purple-theme; }
+.link-blue-theme { @include link-blue-theme; }
+.link-blue-dark-theme { @include link-blue-dark-theme; }
+.link-green-theme { @include link-green-theme; }
+.link-yellow-theme { @include link-yellow-theme; }
+.link-orange-theme { @include link-orange-theme; }
+.link-red-theme { @include link-red-theme; }

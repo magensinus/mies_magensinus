@@ -1,0 +1,124 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Roles
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+header {
+  &.header {
+    background-color: $white;
+    margin: 0;
+    padding: 32px 0;
+  }
+}
+
+main {
+  &.main {
+    margin: 0;
+    padding: 32px 0;
+  }
+}
+
+footer {
+  &.footer {
+    background-color: $blue;
+    color: $white;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.footer-left {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+}
+.footer-right {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+}
+
+.container-top {
+  margin: 0;
+  min-height: 68px;
+  padding: 0;
+  width: 100%;
+}
+
+.container-left {
+  margin: 0;
+  padding: 16px 0;
+}
+
+.container-middle {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container-right {
+  margin: 0;
+  padding: 0;
+}
+
+.container-bottom {
+  margin: 0;
+  min-height: 68px;
+  padding: 0;
+  width: 100%;
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$double-extra-small} {
+  .footer-left {
+    width: 240px;
+  }
+  .footer-right {
+    width: 240px;
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$extra-small} {
+  .footer-left {
+    width: 360px;
+  }
+  .footer-right {
+    width: 360px;
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$small} {
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$medium} {
+  .footer-left {
+    width: 360px;
+  }
+  .footer-right {
+    width: 360px;
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$large} {
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$extra-large} {
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$double-extra-large} {
+}

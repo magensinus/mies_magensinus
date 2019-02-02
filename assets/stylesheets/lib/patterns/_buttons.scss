@@ -1,0 +1,49 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Buttons
+// Project: Mies by IIGETHR
+// -------------------------------------------------------------
+
+.button {
+  @include border-corner(3px);
+  @include button-default-theme;
+  @include button-medium-size;
+  appearance: none;
+  display: block;
+  float: left;
+  font-weight: 700;
+  letter-spacing: .065em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: auto;
+
+  // Sizes
+  &.double-extra-small { @include button-double-extra-small-size; }
+  &.extra-small { @include button-extra-small-size; }
+  &.small { @include button-small-size; }
+  &.medium { @include button-medium-size; }
+  &.large { @include button-large-size; }
+  &.extra-large { @include button-extra-large-size; }
+  &.double-extra-large { @include button-double-extra-large-size; }
+  // Themes
+  &.white { @include button-white-theme; }
+  &.gray { @include button-gray-theme; }
+  &.purple { @include button-purple-theme; }
+  &.blue { @include button-blue-theme; }
+  &.green { @include button-green-theme; }
+  &.yellow { @include button-yellow-theme; }
+  &.orange { @include button-orange-theme; }
+  &.red { @include button-red-theme; }
+  // Icon
+  .icon {
+    background-color: $white;
+    position: relative;
+    &.left {
+      margin-right: .5em;
+    }
+    &.right {
+      margin-left: .5em;
+    }
+  }
+}
