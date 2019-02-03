@@ -7,7 +7,7 @@ $class: "responsive-navigation";
 
 .#{$class} {
   @include border-box;
-  background-color: $gray-000;
+  background-color: $white;
   display: none;
   float: left;
   position: absolute;
