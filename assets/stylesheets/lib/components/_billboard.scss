@@ -1,42 +1,34 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Responsive navigation
-// Project: Magensinus Education
+// File:    Template
+// Project: Mies by IIGETHR
 // -------------------------------------------------------------
 
-$class: "responsive-navigation";
+$class: "billboard";
 
 .#{$class} {
   @include border-box;
-  background-color: $gray-000;
-  display: none;
+  background-color: $blue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
   float: left;
-  position: absolute;
   width: 100%;
-  z-index: 99999;
   .#{$class}-box {
     @include border-box;
     @include clearfix;
     margin: 0 auto;
     overflow: hidden;
-    padding: 64px 0;
+    padding: 0;
     width: 960px;
-    .#{$class}-column {
-      @include border-box;
-      float: left;
-      width: 320px;
-    }
     .#{$class}-item {
       @include border-box;
       float: left;
-      padding: 8px;
-      width: 100%;
-      a {
-        float: left;
-        font-size: 18px;
-        line-height: 24px;
-        width: auto;
-        // Themes
-        &.blue { @include link-blue-theme; }
+      height: 540px;
+      padding: 16px;
+      width: 480px;
+      img {
+        height: 100%;
+        width: 100%;
       }
     }
   }
@@ -47,18 +39,8 @@ $class: "responsive-navigation";
 @media #{$double-extra-small} {
   .#{$class} {
     .#{$class}-box {
-      padding: 8px;
-      width: 240px;
-      .#{$class}-column {
-        width: 240px;
-      }
       .#{$class}-item {
-        padding: 8px 0;
-        a {
-          float: left;
-          font-size: 14px;
-          line-height: 20px;
-        }
+        width: 240px;
       }
     }
   }
@@ -69,18 +51,8 @@ $class: "responsive-navigation";
 @media #{$extra-small} {
   .#{$class} {
     .#{$class}-box {
-      padding: 16px 8px;
-      width: 360px;
-      .#{$class}-column {
-        width: 360px;
-      }
       .#{$class}-item {
-        padding: 8px 0;
-        a {
-          float: left;
-          font-size: 14px;
-          line-height: 20px;
-        }
+        width: 360px;
       }
     }
   }
@@ -91,18 +63,8 @@ $class: "responsive-navigation";
 @media #{$small} {
   .#{$class} {
     .#{$class}-box {
-      padding: 16px 8px;
-      width: 480px;
-      .#{$class}-column {
-        width: 480px;
-      }
       .#{$class}-item {
-        padding: 8px 0;
-        a {
-          float: left;
-          font-size: 14px;
-          line-height: 20px;
-        }
+        width: 480px;
       }
     }
   }
@@ -113,11 +75,8 @@ $class: "responsive-navigation";
 @media #{$medium} {
   .#{$class} {
     .#{$class}-box {
-      width: 720px;
-      .#{$class}-column {
-        width: 240px;
-      }
       .#{$class}-item {
+        width: 720px;
       }
     }
   }
