@@ -18,6 +18,10 @@ $class: "primary-navigation";
       a {
         font-size: 14px;
         line-height: 32px;
+        // Themes
+        &.white { @include link-white-theme; }
+        &.blue { @include link-blue-theme; }
+        &.blue-dark { @include link-blue-dark-theme; }
       }
     }
   }

@@ -11,14 +11,14 @@ $class: "legal-navigation";
   .#{$class}-box {
     @include border-box;
     float: left;
-    padding: 4px;
+    padding: 4px 4px 0;
     .#{$class}-item {
       @include border-box;
       float: left;
       padding: 4px;
       a {
         float: left;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 14px;
         // Themes
         &.white { @include link-white-theme; }
