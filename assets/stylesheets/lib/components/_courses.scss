@@ -26,6 +26,11 @@ $class: "courses";
         padding: 32px;
         position: relative;
         width: 448px;
+        .trix {
+          div {
+            margin: 0;
+          }
+        }
         .button {
           bottom: 32px;
           position: absolute;
@@ -42,6 +47,7 @@ $class: "courses";
         .figure {
           background-position: center;
           background-repeat: no-repeat;
+          background-size: 384px 272px;
           display: block;
           height: 272px;
           margin: 0 auto;
@@ -84,6 +90,7 @@ $class: "courses";
       .#{$class}-item {
         .#{$class}-left {
           float: right;
+          min-height: auto;
           width: 328px;
           .button {
             margin: 32px 0 0;

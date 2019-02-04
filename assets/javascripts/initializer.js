@@ -21,6 +21,15 @@ bindEvents = function() {
     $('.responsive-navigation').css('min-height', divHeight + 'px');
     $(".responsive-panel").css('min-height', divHeight + 'px');
   }
+
+  if ($('a.gallery').length > 0) {
+    $("a.gallery").featherlightGallery({
+      previousIcon: "«",
+      nextIcon: "»",
+      galleryFadeIn: 300,
+      openSpeed: 300
+    });
+  }
 };
 
 $(document).on( "turbolinks:load", function() {
