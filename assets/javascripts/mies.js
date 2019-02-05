@@ -14,9 +14,9 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery/dist/jquery
-//= require featherlight/src/featherlight
-//= require featherlight/src/featherlight.gallery
 //= require altai_center/dist/altai_center
 //= require altai_panel/dist/altai_panel
 //= require altai_toggle/dist/altai_toggle
+//= require featherlight
+//= require featherlight.gallery
 //= require initializer

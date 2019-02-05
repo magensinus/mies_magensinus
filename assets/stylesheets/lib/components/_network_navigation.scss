@@ -13,11 +13,11 @@ $class: "network-navigation";
   .#{$class}-box {
     @include border-box;
     float: right;
-    padding: 8px;
     width: auto;
     .#{$class}-item {
       @include border-box;
       float: left;
+      padding: 8px;
     }
   }
 }

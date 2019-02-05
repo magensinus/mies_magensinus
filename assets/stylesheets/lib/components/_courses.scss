@@ -28,12 +28,9 @@ $class: "courses";
         width: 448px;
         .trix {
           div {
+            font-size: 14px;
             margin: 0;
           }
-        }
-        .button {
-          bottom: 32px;
-          position: absolute;
         }
       }
       .#{$class}-right {
@@ -68,7 +65,7 @@ $class: "courses";
           float: right;
           width: 200px;
           .button {
-            margin: 32px 0 0;
+            margin: 16px 0 0;
           }
         }
         .#{$class}-right {
@@ -143,6 +140,10 @@ $class: "courses";
       .#{$class}-item {
         .#{$class}-left {
           width: 328px;
+          .button {
+            bottom: 32px;
+            position: absolute;
+          }
         }
         .#{$class}-right {
           width: 328px;
@@ -162,6 +163,12 @@ $class: "courses";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
+        .#{$class}-left {
+          .button {
+            bottom: 32px;
+            position: absolute;
+          }
+        }
       }
     }
   }
@@ -173,6 +180,12 @@ $class: "courses";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
+        .#{$class}-left {
+          .button {
+            bottom: 32px;
+            position: absolute;
+          }
+        }
       }
     }
   }
@@ -184,6 +197,12 @@ $class: "courses";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
+        .#{$class}-left {
+          .button {
+            bottom: 32px;
+            position: absolute;
+          }
+        }
       }
     }
   }

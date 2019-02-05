@@ -17,12 +17,15 @@ $class: "group-navigation";
       @include border-box;
       float: left;
       overflow: hidden;
-      padding: 8px;
+      padding: 8px 8px 8px 16px;
       a {
         float: left;
         img {
           float: left;
         }
+      }
+      &:first-child {
+        padding: 8px;
       }
     }
   }
