@@ -67,6 +67,13 @@ $class: "courses";
           .button {
             margin: 16px 0 0;
           }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
+          }
         }
         .#{$class}-right {
           @include hide-block-element;
@@ -91,6 +98,13 @@ $class: "courses";
           width: 328px;
           .button {
             margin: 32px 0 0;
+          }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
           }
         }
         .#{$class}-right {
@@ -121,6 +135,13 @@ $class: "courses";
           .button {
             margin: 32px 0 0;
           }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
+          }
         }
         .#{$class}-right {
           float: left;
@@ -143,6 +164,13 @@ $class: "courses";
           .button {
             bottom: 32px;
             position: absolute;
+          }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
           }
         }
         .#{$class}-right {
@@ -167,6 +195,16 @@ $class: "courses";
           .button {
             bottom: 32px;
             position: absolute;
+            &.right {
+              right: 32px;
+            }
+          }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
           }
         }
       }
@@ -185,6 +223,13 @@ $class: "courses";
             bottom: 32px;
             position: absolute;
           }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
+          }
         }
       }
     }
@@ -201,6 +246,13 @@ $class: "courses";
           .button {
             bottom: 32px;
             position: absolute;
+          }
+          .link {
+            bottom: 32px;
+            position: absolute;
+            &.right {
+              right: 32px;
+            }
           }
         }
       }
