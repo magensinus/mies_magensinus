@@ -30,6 +30,7 @@ $class: "partnerships";
         p {
           display: table-cell;
           font-weight: bold;
+          height: 94px;
           margin: 0;
           text-align: center;
           vertical-align: middle;
@@ -66,6 +67,9 @@ $class: "partnerships";
         a,
         .#{$class}-inner {
           height: 62px;
+          p {
+            height: 62px;
+          }
         }
       }
     }
@@ -93,6 +97,9 @@ $class: "partnerships";
         a,
         .#{$class}-inner {
           height: 94px;
+          p {
+            height: 94px;
+          }
         }
       }
     }
