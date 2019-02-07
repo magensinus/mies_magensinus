@@ -14,36 +14,65 @@ h6 {
   padding: 0;
   vertical-align: bottom;
   width: 100%;
+  // Icon
+  .icon {
+    background-color: transparent;
+    position: relative;
+    &.left {
+      margin-right: .5em;
+    }
+    &.right {
+      margin-left: .5em;
+    }
+  }
 }
 
 h1 {
   font-size: 40px;
   line-height: 48px;
+  .icon {
+    height: 48px;
+  }
 }
 
 h2 {
   font-size: 32px;
   line-height: 40px;
+  .icon {
+    height: 40px;
+  }
 }
 
 h3 {
   font-size: 24px;
   line-height: 32px;
+  .icon {
+    height: 32px;
+  }
 }
 
 h4 {
   font-size: 18px;
   line-height: 24px;
+  .icon {
+    height: 24px;
+  }
 }
 
 h5 {
   font-size: 14px;
   line-height: 20px;
+  .icon {
+    height: 20px;
+  }
 }
 
 h6 {
   font-size: 12px;
   line-height: 18px;
+  .icon {
+    height: 18px;
+  }
 }
 
 p {

@@ -18,28 +18,31 @@ $class: "partnerships";
       float: left;
       padding: 16px;
       width: 240px;
-      a,
       .#{$class}-inner {
         @include border-box;
         background-color: $white;
         display: table;
         float: left;
-        height: 94px;
         padding: 16px;
-        width: 100%;
+        width: 208px;
+        a,
         p {
           display: table-cell;
-          font-weight: bold;
-          height: 94px;
+          height: 176px;
           margin: 0;
           text-align: center;
+          width: 176px;
           vertical-align: middle;
-          width: 100%;
+        }
+        a {
+          &.blue {
+            @include link-blue-theme;
+          }
         }
         img {
-          display: table-cell;
-          vertical-align: middle;
-          width: 100%;
+          float: left;
+          height: 176px;
+          width: 176px;
         }
       }
     }
@@ -64,11 +67,16 @@ $class: "partnerships";
     .#{$class}-box {
       .#{$class}-item {
         width: 180px;
-        a,
         .#{$class}-inner {
-          height: 62px;
+          width: 148px;
+          a,
           p {
-            height: 62px;
+            height: 116px;
+            width: 116px;
+          }
+          img {
+            height: 116px;
+            width: 116px;
           }
         }
       }
@@ -93,14 +101,6 @@ $class: "partnerships";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
-        width: 240px;
-        a,
-        .#{$class}-inner {
-          height: 94px;
-          p {
-            height: 94px;
-          }
-        }
       }
     }
   }
