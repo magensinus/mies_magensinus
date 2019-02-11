@@ -16,17 +16,51 @@ $class: "wallets";
     .#{$class}-item {
       @include border-box;
       float: left;
-      height: 240px;
       padding: 16px;
       width: 240px;
-      a {
+      .#{$class}-inner {
         @include border-box;
         background-color: $white;
         float: left;
-        height: 208px;
-        line-height: 32px;
         padding: 16px;
-        width: 100%;
+        width: 208px;
+        a,
+        p {
+          font-size: 14px;
+          height: 176px;
+          line-height: 28px;
+          margin: 0;
+          text-align: left;
+          vertical-align: middle;
+          width: 176px;
+          // Icon
+          .icon {
+            background-color: transparent;
+            height: 28px;
+            position: relative;
+            &.left {
+              margin-right: .250em;
+            }
+            &.right {
+              margin-left: .250em;
+            }
+            img {
+              float: left;
+              height: auto;
+              width: auto;
+            }
+          }
+        }
+        a {
+          &.blue {
+            @include link-blue-theme;
+          }
+        }
+        img {
+          float: left;
+          height: 176px;
+          width: 176px;
+        }
       }
     }
   }
@@ -49,17 +83,18 @@ $class: "wallets";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
-        @include border-box;
-        height: 360px;
-        width: 360px;
-        a {
-          @include border-box;
-          background-color: $white;
-          float: left;
-          height: 328px;
-          line-height: 32px;
-          padding: 16px;
-          width: 100%;
+        width: 180px;
+        .#{$class}-inner {
+          width: 148px;
+          a,
+          p {
+            height: 116px;
+            width: 116px;
+          }
+          img {
+            height: 116px;
+            width: 116px;
+          }
         }
       }
     }
