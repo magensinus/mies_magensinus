@@ -17,22 +17,21 @@ $class: "wallets";
       @include border-box;
       float: left;
       padding: 16px;
-      width: 240px;
+      width: 480px;
       .#{$class}-inner {
         @include border-box;
         background-color: $white;
         float: left;
         padding: 16px;
-        width: 208px;
+        width: 448px;
         a,
         p {
           font-size: 14px;
-          height: 176px;
+          height: 56px;
           line-height: 28px;
           margin: 0;
           text-align: left;
           vertical-align: middle;
-          width: 176px;
           // Icon
           .icon {
             background-color: transparent;
@@ -41,25 +40,10 @@ $class: "wallets";
             &.left {
               margin-right: .250em;
             }
-            &.right {
-              margin-left: .250em;
-            }
-            img {
-              float: left;
-              height: auto;
-              width: auto;
-            }
           }
-        }
-        a {
           &.blue {
             @include link-blue-theme;
           }
-        }
-        img {
-          float: left;
-          height: 176px;
-          width: 176px;
         }
       }
     }
@@ -83,18 +67,9 @@ $class: "wallets";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
-        width: 180px;
+        width: 360px;
         .#{$class}-inner {
-          width: 148px;
-          a,
-          p {
-            height: 116px;
-            width: 116px;
-          }
-          img {
-            height: 116px;
-            width: 116px;
-          }
+          width: 328px;
         }
       }
     }
@@ -118,6 +93,10 @@ $class: "wallets";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
+        width: 360px;
+        .#{$class}-inner {
+          width: 328px;
+        }
       }
     }
   }

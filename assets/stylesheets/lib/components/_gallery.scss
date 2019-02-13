@@ -1,9 +1,9 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Content
-// Project: Magensinus Education
+// File:    Gallery
+// Project: Mies by IIGETHR
 // -------------------------------------------------------------
 
-$class: "content";
+$class: "gallery";
 
 .#{$class} {
   @include border-box;
@@ -17,22 +17,34 @@ $class: "content";
       @include border-box;
       float: left;
       padding: 16px;
-      width: 100%;
-    }
-  }
-  .media {
-    @include border-box;
-    background-color: $white;
-    float: left;
-    padding: 16px;
-    width: 100%;
-    overflow: hidden;
-    iframe,
-    img {
-      float: left;
-    }
-    img {
-      max-width: 720px;
+      width: 240px;
+      .#{$class}-inner {
+        @include border-box;
+        background-color: $white;
+        display: table;
+        float: left;
+        padding: 16px;
+        width: 208px;
+        a,
+        p {
+          display: table-cell;
+          height: 176px;
+          margin: 0;
+          text-align: center;
+          vertical-align: middle;
+          width: 176px;
+        }
+        a {
+          &.blue {
+            @include link-blue-theme;
+          }
+        }
+        img {
+          float: left;
+          height: 176px;
+          width: 176px;
+        }
+      }
     }
   }
 }
@@ -45,15 +57,6 @@ $class: "content";
       .#{$class}-item {
       }
     }
-    .media {
-      iframe,
-      img {
-        max-width: 176px;
-      }
-      iframe {
-        height: 99px;
-      }
-    }
   }
 }
 
@@ -63,15 +66,19 @@ $class: "content";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
-      }
-    }
-    .media {
-      iframe,
-      img {
-        max-width: 296px;
-      }
-      iframe {
-        height: 167px;
+        width: 180px;
+        .#{$class}-inner {
+          width: 148px;
+          a,
+          p {
+            height: 116px;
+            width: 116px;
+          }
+          img {
+            height: 116px;
+            width: 116px;
+          }
+        }
       }
     }
   }
@@ -85,15 +92,6 @@ $class: "content";
       .#{$class}-item {
       }
     }
-    .media {
-      iframe,
-      img {
-        max-width: 416px;
-      }
-      iframe {
-        height: 234px;
-      }
-    }
   }
 }
 
@@ -104,15 +102,6 @@ $class: "content";
     .#{$class}-box {
       .#{$class}-item {
       }
-    }
-  }
-  .media {
-    iframe,
-    img {
-      max-width: 656px;
-    }
-    iframe {
-      height: 369px;
     }
   }
 }
