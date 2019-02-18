@@ -24,9 +24,9 @@ $class: "content";
     @include border-box;
     background-color: $white;
     float: left;
+    overflow: hidden;
     padding: 16px;
     width: 100%;
-    overflow: hidden;
     iframe,
     img {
       float: left;

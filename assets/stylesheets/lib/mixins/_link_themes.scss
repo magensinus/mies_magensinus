@@ -13,6 +13,9 @@
   &:active {
     color: $white-100 !important;
   }
+  &.active {
+    color: $white-100 !important;
+  }
 }
 
 @mixin link-default-theme {
@@ -24,6 +27,9 @@
   &:hover,
   &:active {
     color: $gray-600 !important;
+  }
+  &.active {
+    color: $gray-500 !important;
   }
 }
 
@@ -47,7 +53,10 @@
   }
   &:hover,
   &:active {
-    color: $blue-600 !important;
+    color: $blue-700 !important;
+  }
+  &.active {
+    color: $blue-700 !important;
   }
 }
 
