@@ -27,14 +27,14 @@
   &.extra-large { @include button-extra-large-size; }
   &.double-extra-large { @include button-double-extra-large-size; }
   // Themes
-  &.white { @include button-white-theme; }
-  &.gray { @include button-gray-theme; }
-  &.purple { @include button-purple-theme; }
-  &.blue { @include button-blue-theme; }
-  &.green { @include button-green-theme; }
-  &.yellow { @include button-yellow-theme; }
-  &.orange { @include button-orange-theme; }
-  &.red { @include button-red-theme; }
+  &.white   { @include button-white-theme; }
+  &.gray    { @include button-gray-theme; }
+  &.purple  { @include button-purple-theme; }
+  &.blue    { @include button-blue-theme; }
+  &.green   { @include button-green-theme; }
+  &.yellow  { @include button-yellow-theme; }
+  &.orange  { @include button-orange-theme; }
+  &.red     { @include button-red-theme; }
   // Icon
   .icon {
     background-color: $white;

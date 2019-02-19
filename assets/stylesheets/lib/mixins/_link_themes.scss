@@ -18,6 +18,21 @@
   }
 }
 
+@mixin link-black-theme {
+  color: $black-085 !important;
+  &:link,
+  &:visited {
+    color: $black-085 !important;
+  }
+  &:hover,
+  &:active {
+    color: $black-100 !important;
+  }
+  &.active {
+    color: $black-100 !important;
+  }
+}
+
 @mixin link-default-theme {
   color: $gray-500 !important;
   &:link,
@@ -169,6 +184,8 @@
 }
 
 .link-default-theme { @include link-default-theme; }
+.link-white-theme { @include link-white-theme; }
+.link-black-theme { @include link-black-theme; }
 .link-gray-theme { @include link-gray-theme; }
 .link-purple-light-theme { @include link-purple-light-theme; }
 .link-purple-theme { @include link-purple-theme; }
