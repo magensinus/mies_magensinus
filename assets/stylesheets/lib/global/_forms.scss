@@ -36,8 +36,12 @@ form {
     font-weight: 100;
     line-height: 32px;
     margin: 0;
-    padding: 8px;
+    padding: 8px 16px;
     width: 100%;
+    p {
+      margin: 0;
+      padding: 0;
+    }
   }
 
   label {
@@ -148,7 +152,7 @@ form {
   .field {
     float: left;
     margin: 0;
-    padding: 8px;
+    padding: 8px 16px;
     text-align: left;
     width: 100%;
     // Form wrapper
@@ -216,13 +220,13 @@ form {
   .checkbox,
   .radiobutton {
     @include border-corner(3px);
-    background-color: $gray-100;
-    border: 1px solid $gray-300;
+    background-color: $white;
+    border: 1px solid $blue-500;
     float: left;
     font-family: $sans;
     font-size: 14px;
     line-height: 24px;
-    padding: 7px;
+    padding: 11px 7px;
     width: 100%;
     label {
       display: inline;
@@ -247,23 +251,43 @@ form {
 
   // Date
   .date {
+    @include border-corner(3px);
     @include clearfix-left;
-    background-color: $gray-100;
+    background-color: $white;
+    border: 1px solid $blue-500;
     float: left;
-    padding: 8px;
+    padding: 11px 15px;
     width: auto;
     [type=date],
     [type=date]::-webkit-calendar-picker-indicator,
     [type=date]::-webkit-input-placeholder,
     [type=date]::-webkit-inner-spin-button {
       appearance: none;
-      background-color: transparent;
-      border: 0;
-      display: inline-block;
-      visibility: hidden;
-      width: auto;
+      -webkit-appearance: none;
+      display: inline-block !important;
+      visibility: visible !important;
     }
+    /* Removes the clear button from date inputs */
+    [type="date"]::-webkit-clear-button {
+      display: none;
+    }
+    /* Removes the spin button */
+    [type="date"]::-webkit-inner-spin-button {
+      display: none;
+    }
+    /* Always display the drop down caret */
+    [type="date"]::-webkit-calendar-picker-indicator {
+      background-color: transparent;
+      color: $blue;
+    }
+    [type="date"], focus {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+    }
+    input,
     select {
+      appearance: none;
       width: auto;
     }
   }
