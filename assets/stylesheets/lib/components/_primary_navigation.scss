@@ -16,7 +16,7 @@ $class: "primary-navigation";
       float: left;
       padding: 8px 32px;
       a {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 32px;
         // Themes
         &.white { @include link-white-theme; }
