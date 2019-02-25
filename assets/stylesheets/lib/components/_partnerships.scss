@@ -25,24 +25,49 @@ $class: "partnerships";
         float: left;
         padding: 16px;
         width: 208px;
+        img {
+          float: left;
+          max-height: 176px;
+          max-width: 176px;
+        }
         a,
         p {
+          color: $blue;
           display: table-cell;
+          font-size: 16px;
           height: 176px;
           margin: 0;
-          text-align: center;
-          vertical-align: middle;
+          text-align: left;
+          vertical-align: top;
           width: 176px;
+          img {
+            float: left;
+            height: 176px;
+            width: 176px;
+          }
+          // Icon
+          .icon {
+            background-color: transparent;
+            height: 24px;
+            position: relative;
+            background-color: transparent;
+            position: relative;
+            &.left {
+              margin-right: .250em;
+            }
+            &.right {
+              margin-left: .250em;
+            }
+            img {
+              height: inherit;
+              width: auto;
+            }
+          }
         }
         a {
           &.blue {
             @include link-blue-theme;
           }
-        }
-        img {
-          float: left;
-          height: 176px;
-          width: 176px;
         }
       }
     }

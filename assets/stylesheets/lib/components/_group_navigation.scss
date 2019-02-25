@@ -79,6 +79,7 @@ $class: "group-navigation";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
+        float: right;
       }
     }
   }
