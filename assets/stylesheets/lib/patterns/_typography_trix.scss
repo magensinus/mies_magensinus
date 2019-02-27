@@ -13,6 +13,7 @@
   h4,
   h5,
   h6 {
+    color: $gray-700;
     font-family: $sans;
     margin: 0;
     padding: 0;
@@ -52,6 +53,7 @@
 
   p,
   div {
+    color: $gray-500;
     font-size: 16px;
     line-height: 24px;
     margin: 16px 0;

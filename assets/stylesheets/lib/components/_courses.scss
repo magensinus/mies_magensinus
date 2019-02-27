@@ -32,9 +32,6 @@ $class: "courses";
             margin: 0;
           }
         }
-        h3 {
-          color: $blue;
-        }
       }
       .#{$class}-right {
         @include border-box;

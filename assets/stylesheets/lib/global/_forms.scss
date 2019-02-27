@@ -163,7 +163,7 @@ form {
   }
 
   .input {
-    @include border-corner(3px);
+    @include border-corner(4px);
     background-color: $white;
     border: 1px solid $blue-500;
     float: left;
@@ -172,7 +172,7 @@ form {
   }
 
   .file {
-    @include border-corner(3px);
+    @include border-corner(4px);
     background-color: $white-100;
     float: left;
     padding: 0;
@@ -192,7 +192,7 @@ form {
   }
 
   .textarea {
-    @include border-corner(3px);
+    @include border-corner(4px);
     background-color: $white-100;
     border: 1px solid $gray-300;
     float: left;
@@ -202,7 +202,7 @@ form {
 
   // Select
   .select {
-    @include border-corner(3px);
+    @include border-corner(4px);
     background-color: $gray-100;
     border: 1px solid $gray-300;
     float: left;
@@ -219,7 +219,7 @@ form {
   // Checkbox & radiobutton
   .checkbox,
   .radiobutton {
-    @include border-corner(3px);
+    @include border-corner(4px);
     background-color: $white;
     border: 1px solid $blue-500;
     float: left;
@@ -251,7 +251,7 @@ form {
 
   // Date
   .date {
-    @include border-corner(3px);
+    @include border-corner(4px);
     @include clearfix-left;
     background-color: $white;
     border: 1px solid $blue-500;

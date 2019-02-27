@@ -4,7 +4,7 @@
 // -------------------------------------------------------------
 
 .button {
-  @include border-corner(3px);
+  @include border-corner(4px);
   @include button-default-theme;
   @include button-medium-size;
   appearance: none;
