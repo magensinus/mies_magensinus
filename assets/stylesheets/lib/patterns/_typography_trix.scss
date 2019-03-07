@@ -60,6 +60,9 @@
     padding: 0;
     vertical-align: bottom;
     width: 100%;
+    &:first-child {
+      margin: 0;
+    }
     &.double-extra-small {
       font-size: 10px;
       line-height: 16px;
@@ -99,17 +102,17 @@
       padding: 0;
       text-decoration: underline;
       vertical-align: bottom;
-      &.link-default-theme { @include link-default-theme; }
-      &.link-gray-theme { @include link-gray-theme; }
-      &.link-purple-light-theme { @include link-purple-light-theme; }
-      &.link-purple-theme { @include link-purple-theme; }
-      &.link-blue-theme { @include link-blue-theme; }
-      &.link-green-theme { @include link-green-theme; }
-      &.link-green-dark-theme { @include link-green-dark-theme; }
-      &.link-yellow-theme { @include link-yellow-theme; }
-      &.link-yellow-dark-theme { @include link-yellow-dark-theme; }
-      &.link-orange-theme { @include link-orange-theme; }
-      &.link-red-theme { @include link-red-theme; }
+      // Themes
+      &.default { @include link-default-theme; }
+      &.black   { @include link-black-theme; }
+      &.white   { @include link-white-theme; }
+      &.gray    { @include link-gray-theme; }
+      &.purple  { @include link-purple-theme; }
+      &.blue    { @include link-blue-theme; }
+      &.green   { @include link-green-theme; }
+      &.yellow  { @include link-yellow-theme; }
+      &.orange  { @include link-orange-theme; }
+      &.red     { @include link-red-theme; }
       &.underline {
         text-decoration: underline;
       }
@@ -128,6 +131,12 @@
     &:last-child {
       margin: 16px 0 0;
     }
+  }
+  p:first-child,
+  p:first-of-type,
+  div:first-child,
+  div:first-of-type {
+    margin: 0;
   }
 
   blockquote {
@@ -181,6 +190,10 @@
   mark   { background-color: $yellow; }
   small  { font-size: 70%; }
   strong { font-weight: bold; }
+
+  &.white-cl {
+    div { color: $white; }
+  }
 }
 
 // Media Query 240px

@@ -5,6 +5,7 @@
 
 header {
   &.header {
+    background-color: $gray-000;
     margin: 0;
     padding: 32px 0;
   }
@@ -12,6 +13,7 @@ header {
 
 div {
   &.hero {
+    background-color: $gray-000;
     margin: 0;
     padding: 16px;
   }
@@ -19,6 +21,7 @@ div {
 
 main {
   &.main {
+    background-color: $gray-000;
     margin: 0;
     padding: 32px 0;
   }
@@ -26,8 +29,14 @@ main {
 
 footer {
   &.footer {
+    background-color: $gray-900;
+    color: $gray-300;
     margin: 0;
     padding: 0;
+  }
+  p,
+  div {
+    color: $gray-300;
   }
 }
 

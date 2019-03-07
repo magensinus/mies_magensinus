@@ -165,7 +165,7 @@ form {
   .input {
     @include border-corner(4px);
     background-color: $white;
-    border: 1px solid $blue-500;
+    border: 1px solid $gray-300;
     float: left;
     padding: 7px 15px;
     width: 100%;
@@ -173,7 +173,7 @@ form {
 
   .file {
     @include border-corner(4px);
-    background-color: $white-100;
+    background-color: $white;
     float: left;
     padding: 0;
     width: 100%;
@@ -193,7 +193,7 @@ form {
 
   .textarea {
     @include border-corner(4px);
-    background-color: $white-100;
+    background-color: $white;
     border: 1px solid $gray-300;
     float: left;
     padding: 8px;
@@ -221,7 +221,7 @@ form {
   .radiobutton {
     @include border-corner(4px);
     background-color: $white;
-    border: 1px solid $blue-500;
+    border: 1px solid $gray-300;
     float: left;
     font-family: $sans;
     font-size: 14px;
@@ -254,7 +254,7 @@ form {
     @include border-corner(4px);
     @include clearfix-left;
     background-color: $white;
-    border: 1px solid $blue-500;
+    border: 1px solid $gray-300;
     float: left;
     padding: 11px 15px;
     width: auto;
@@ -278,7 +278,7 @@ form {
     /* Always display the drop down caret */
     [type="date"]::-webkit-calendar-picker-indicator {
       background-color: transparent;
-      color: $blue;
+      color: $gray;
     }
     [type="date"], focus {
       box-shadow: none;

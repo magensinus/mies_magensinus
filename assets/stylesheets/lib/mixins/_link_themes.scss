@@ -4,17 +4,17 @@
 // -------------------------------------------------------------
 
 @mixin link-white-theme {
-  color: $white-085 !important;
+  color: $gray-300 !important;
   &:link,
   &:visited {
-    color: $white-085 !important;
+    color: $gray-300 !important;
   }
   &:hover,
   &:active {
-    color: $white-100 !important;
+    color: $white !important;
   }
   &.active {
-    color: $white-100 !important;
+    color: $white !important;
   }
 }
 

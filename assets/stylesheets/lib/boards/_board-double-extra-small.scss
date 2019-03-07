@@ -1,75 +1,20 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Partnerships
+// File:    Board double extra small
 // Project: Mies by IIGETHR
 // -------------------------------------------------------------
 
-$class: "partnerships";
+$class: "board-double-extra-small";
 
 .#{$class} {
   @include border-box;
   float: left;
-  width: 100%;
+  width: 240px;
   .#{$class}-box {
     @include border-box;
     float: left;
-    width: 100%;
     .#{$class}-item {
       @include border-box;
       float: left;
-      padding: 16px;
-      width: 240px;
-      .#{$class}-inner {
-        @include border-box;
-        background-color: $white;
-        display: table;
-        float: left;
-        padding: 16px;
-        width: 208px;
-        img {
-          float: left;
-          max-height: 176px;
-          max-width: 176px;
-        }
-        a,
-        p {
-          color: $gray-500;
-          display: table-cell;
-          font-size: 16px;
-          height: 176px;
-          margin: 0;
-          text-align: left;
-          vertical-align: top;
-          width: 176px;
-          img {
-            float: left;
-            height: 176px;
-            width: 176px;
-          }
-          // Icon
-          .icon {
-            background-color: transparent;
-            height: 24px;
-            position: relative;
-            background-color: transparent;
-            position: relative;
-            &.left {
-              margin-right: .250em;
-            }
-            &.right {
-              margin-left: .250em;
-            }
-            img {
-              height: inherit;
-              width: auto;
-            }
-          }
-        }
-        a {
-          &.gray {
-            @include link-gray-theme;
-          }
-        }
-      }
     }
   }
 }
@@ -91,19 +36,6 @@ $class: "partnerships";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
-        width: 180px;
-        .#{$class}-inner {
-          width: 148px;
-          a,
-          p {
-            height: 116px;
-            width: 116px;
-          }
-          img {
-            height: 116px;
-            width: 116px;
-          }
-        }
       }
     }
   }

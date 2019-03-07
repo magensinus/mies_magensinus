@@ -22,7 +22,9 @@ $class: "legal-navigation";
         line-height: 14px;
         // Themes
         &.white { @include link-white-theme; }
-        &.blue-dark { @include link-blue-dark-theme; }
+        &.active {
+          text-decoration: underline;
+        }
       }
     }
   }
