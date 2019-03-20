@@ -19,7 +19,8 @@ $class: "secondary-navigation";
       @include border-box;
       float: left;
       width: 100%;
-      a {
+      a,
+      .link {
         float: left;
         font-size: 14px;
         line-height: 24px;

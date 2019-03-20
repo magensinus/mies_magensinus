@@ -4,10 +4,10 @@
 // -------------------------------------------------------------
 
 @mixin link-white-theme {
-  color: $gray-300 !important;
+  color: $white !important;
   &:link,
   &:visited {
-    color: $gray-300 !important;
+    color: $white !important;
   }
   &:hover,
   &:active {
