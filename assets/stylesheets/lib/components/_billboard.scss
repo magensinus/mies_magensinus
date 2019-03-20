@@ -7,7 +7,7 @@ $class: "billboard";
 
 .#{$class} {
   @include border-box;
-  background-color: $gray-900;
+  background-color: $gray-800;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1440px 540px;
