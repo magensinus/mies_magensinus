@@ -7,26 +7,25 @@ $class: "brand-footer";
 
 .#{$class} {
   @include border-box;
-  float: left;
-  width: 240px;
+  float: right;
+  overflow: hidden;
+  width: auto;
   .#{$class}-box {
     @include border-box;
-    float: left;
-    width: 100%;
+    float: right;
     .#{$class}-item {
       @include border-box;
       float: left;
-      padding: 8px;
-      width: 100%;
+      overflow: hidden;
+      padding: 8px 8px 8px 16px;
       a {
         float: left;
-        line-height: 32px;
-        overflow: hidden;
-        width: 100%;
         img {
           float: left;
-          width: 100%;
         }
+      }
+      &:first-child {
+        padding: 8px;
       }
     }
   }
@@ -36,9 +35,11 @@ $class: "brand-footer";
 // -------------------------------------------------------------
 @media #{$double-extra-small} {
   .#{$class} {
-    float: right;
+    width: 100%;
     .#{$class}-box {
+      width: 100%;
       .#{$class}-item {
+        width: 100%;
       }
     }
   }
@@ -48,9 +49,11 @@ $class: "brand-footer";
 // ------------------------------------------------------------
 @media #{$extra-small} {
   .#{$class} {
-    float: right;
+    width: 100%;
     .#{$class}-box {
+      width: 100%;
       .#{$class}-item {
+        width: 100%;
       }
     }
   }
@@ -60,9 +63,11 @@ $class: "brand-footer";
 // -------------------------------------------------------------
 @media #{$small} {
   .#{$class} {
-    float: right;
+    width: 100%;
     .#{$class}-box {
+      width: 100%;
       .#{$class}-item {
+        width: 100%;
       }
     }
   }
@@ -74,6 +79,7 @@ $class: "brand-footer";
   .#{$class} {
     .#{$class}-box {
       .#{$class}-item {
+        float: right;
       }
     }
   }
