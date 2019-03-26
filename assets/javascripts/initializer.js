@@ -1,7 +1,9 @@
 // Initializer
 
 bindEvents = function() {
+  $.set_we_love_cookies();
   $(".overlay").hide();
+  $(".altai-off").altaiOff();
   $(".altai-center").altaiCenter();
   $(".altai-panel").altaiPanel({
     trim: 112
@@ -56,8 +58,8 @@ bindWrappers = function() {
 }
 
 $(document).on( "turbolinks:load", function() {
-  bindEvents();
   bindWrappers();
+  bindEvents();
   Turbolinks.clearCache();
 });
 

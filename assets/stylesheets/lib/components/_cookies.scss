@@ -1,38 +1,29 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Brand
-// Project: Magensinus Education
+// File:    Cookies
+// Project: Mies by IIGETHR
 // -------------------------------------------------------------
 
-$class: "brand";
+$class: "cookies";
 
 .#{$class} {
   @include border-box;
+  background-color: $white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
   float: left;
-  width: 240px;
+  width: 100%;
   .#{$class}-box {
     @include border-box;
     float: left;
+    padding: 8px;
     width: 100%;
     .#{$class}-item {
       @include border-box;
       float: left;
       padding: 8px;
       width: 100%;
-      &.default {
-        @include show-block-element;
-      }
-      &.mobile {
-        @include hide-block-element;
-      }
-      a {
-        float: left;
-        line-height: 32px;
-        width: 100%;
-        img {
-          float: left;
-          max-width: 100%;
-        }
-      }
     }
   }
 }
@@ -41,16 +32,8 @@ $class: "brand";
 // -------------------------------------------------------------
 @media #{$double-extra-small} {
   .#{$class} {
-    float: right;
-    width: auto;
     .#{$class}-box {
       .#{$class}-item {
-        &.default {
-          @include hide-block-element;
-        }
-        &.mobile {
-          @include show-block-element;
-        }
       }
     }
   }
@@ -60,16 +43,8 @@ $class: "brand";
 // ------------------------------------------------------------
 @media #{$extra-small} {
   .#{$class} {
-    float: right;
-    width: auto;
     .#{$class}-box {
       .#{$class}-item {
-        &.default {
-          @include hide-block-element;
-        }
-        &.mobile {
-          @include show-block-element;
-        }
       }
     }
   }
@@ -79,16 +54,8 @@ $class: "brand";
 // -------------------------------------------------------------
 @media #{$small} {
   .#{$class} {
-    float: right;
-    width: auto;
     .#{$class}-box {
       .#{$class}-item {
-        &.default {
-          @include hide-block-element;
-        }
-        &.mobile {
-          @include show-block-element;
-        }
       }
     }
   }

@@ -14,9 +14,12 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery/dist/jquery
+//= require js-cookie/src/js.cookie
+//= require altai_off/dist/altai_off
 //= require altai_center/dist/altai_center
 //= require altai_panel/dist/altai_panel
 //= require altai_toggle/dist/altai_toggle
+//= require plugins/set_we_love_cookies
 //= require featherlight
 //= require featherlight.gallery
 //= require initializer
