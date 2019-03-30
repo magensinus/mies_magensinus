@@ -72,24 +72,73 @@ svg {
   width: auto;
 }
 
+.media {
+  @include border-box;
+  background-color: $white;
+  float: left;
+  overflow: hidden;
+  padding: 16px;
+  max-width: 100%;
+  iframe,
+  img {
+    float: left;
+    max-width: 100%;
+  }
+  iframe {
+    max-height: 100%;
+  }
+}
+
+.featherlight {
+  iframe {
+    height: 540px;
+    width: 960px;
+  }
+}
+
+
 // Media Query 240px
 // -------------------------------------------------------------
 @media #{$double-extra-small} {
+  .featherlight {
+    iframe {
+      height: 135px;
+      width: 240px;
+    }
+  }
 }
 
 // Media Query 360px
 // ------------------------------------------------------------
 @media #{$extra-small} {
+  .featherlight {
+    iframe {
+      height: 203px;
+      width: 360px;
+    }
+  }
 }
 
 // Media Query 480px
 // -------------------------------------------------------------
 @media #{$small} {
+  .featherlight {
+    iframe {
+      height: 270px;
+      width: 480px;
+    }
+  }
 }
 
 // Media Query 720px
 // -------------------------------------------------------------
 @media #{$medium} {
+  .featherlight {
+    iframe {
+      height: 405px;
+      width: 720px;
+    }
+  }
 }
 
 // Media Query 960px

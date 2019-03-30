@@ -33,10 +33,27 @@ $class: "section-content";
         @include border-box;
         background-color: $white;
         float: left;
+        overflow: hidden;
         padding: 32px;
         width: 100%;
       }
+      .#{$class}-asset {
+        @include border-box;
+        float: left;
+        padding: 16px 0;
+        width: 100%;
+        .#{$class}-asset {
+          iframe {
+            height: 306px;
+            width: 544px;
+          }
+        }
+      }
     }
+  }
+  .media {
+    padding: 0;
+    max-width: 100%;
   }
 }
 
@@ -51,6 +68,12 @@ $class: "section-content";
         }
         .#{$class}-right {
           width: 240px;
+        }
+        .#{$class}-asset {
+          iframe {
+            height: 81px;
+            width: 144px;
+          }
         }
       }
     }
@@ -69,6 +92,12 @@ $class: "section-content";
         .#{$class}-right {
           width: 360px;
         }
+        .#{$class}-asset {
+          iframe {
+            height: 149px;
+            width: 264px;
+          }
+        }
       }
     }
   }
@@ -86,6 +115,12 @@ $class: "section-content";
         .#{$class}-right {
           width: 480px;
         }
+        .#{$class}-asset {
+          iframe {
+            height: 216px;
+            width: 384px;
+          }
+        }
       }
     }
   }
@@ -102,6 +137,12 @@ $class: "section-content";
         }
         .#{$class}-right {
           width: 720px;
+        }
+        .#{$class}-asset {
+          iframe {
+            height: 351px;
+            width: 624px;
+          }
         }
       }
     }

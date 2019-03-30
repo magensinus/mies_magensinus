@@ -20,8 +20,10 @@ $class: "brand-footer";
       padding: 8px 8px 8px 16px;
       a {
         float: left;
+        height: 32px;
         img {
           float: left;
+          height: 32px;
         }
       }
       &:first-child {
