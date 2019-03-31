@@ -23,6 +23,9 @@ $class: "primary-navigation";
         &.gray      { @include link-gray-theme; }
         &.blue      { @include link-blue-theme; }
         &.blue-dark { @include link-blue-dark-theme; }
+        .icon {
+          margin-top: 4px;
+        }
       }
     }
   }

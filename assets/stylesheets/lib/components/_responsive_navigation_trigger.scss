@@ -22,6 +22,9 @@ $class: "responsive-navigation-trigger";
         &.active {
           text-decoration: underline;
         }
+        .icon {
+          margin-top: 4px;
+        }
       }
     }
   }
