@@ -34,6 +34,10 @@ h1 {
   .icon {
     height: 48px;
   }
+  &.large {
+    font-size: 56px;
+    line-height: 72px;
+  }
 }
 
 h2 {

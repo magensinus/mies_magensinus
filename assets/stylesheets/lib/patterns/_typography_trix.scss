@@ -12,6 +12,48 @@
       color: $white;
     }
   }
+  &.double-extra-small {
+    div {
+      font-size: 10px;
+      line-height: 16px;
+    }
+  }
+  &.extra-small {
+    div {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  &.small {
+    div {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  &.medium {
+    div {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  &.large {
+    div {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  &.extra-large {
+    div {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+  &.double-extra-large {
+    div {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
   div {
     color: $gray-500;
     font-size: 16px;

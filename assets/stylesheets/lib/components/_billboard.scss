@@ -39,6 +39,7 @@ $class: "billboard";
 @media #{$double-extra-small} {
   .#{$class} {
     .#{$class}-box {
+      width: 240px;
       .#{$class}-item {
         width: 240px;
       }
@@ -51,6 +52,7 @@ $class: "billboard";
 @media #{$extra-small} {
   .#{$class} {
     .#{$class}-box {
+      width: 360px;
       .#{$class}-item {
         width: 360px;
       }
@@ -63,6 +65,7 @@ $class: "billboard";
 @media #{$small} {
   .#{$class} {
     .#{$class}-box {
+      width: 480px;
       .#{$class}-item {
         width: 480px;
       }
@@ -75,6 +78,7 @@ $class: "billboard";
 @media #{$medium} {
   .#{$class} {
     .#{$class}-box {
+      width: 720px;
       .#{$class}-item {
         width: 720px;
       }
