@@ -20,6 +20,7 @@
 //= require altai_panel/dist/altai_panel
 //= require altai_toggle/dist/altai_toggle
 //= require plugins/set_we_love_cookies
+//= require detect_swipe/jquery.detect_swipe
 //= require featherlight
 //= require featherlight.gallery
 //= require initializer
