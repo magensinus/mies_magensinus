@@ -16,6 +16,7 @@ $class: "brand";
     .#{$class}-item {
       @include border-box;
       float: left;
+      overflow: hidden;
       padding: 8px;
       width: 100%;
       &.default {

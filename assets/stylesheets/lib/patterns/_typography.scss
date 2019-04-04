@@ -154,8 +154,8 @@ p {
       }
     }
   }
-  p:first-child,
-  p:first-of-type {
+  &:first-child,
+  &:first-of-type {
     margin: 0;
   }
 }
