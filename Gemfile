@@ -20,7 +20,7 @@ ruby "2.6.2"
 # your gem to rubygems.org.
 
 # Rack-based asset packaging system.
-gem "sprockets", "~> 4.0.0.beta8"
+gem "sprockets"
 
 # Linters
 gem "coffeelint", require: false
